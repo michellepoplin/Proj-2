@@ -1,0 +1,165 @@
+
+* {
+  box-sizing: border-box
+}
+
+body {
+    background-color: #55AFB8
+}
+
+.container {
+    background-color: #55AFB8;
+}
+
+.card {
+    margin: 0 auto;
+    float: none; 
+    margin-top: 10px;
+    margin-bottom: 10px; 
+    width: 80%;
+    max-width: 1200px;
+}
+.card-img-top {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.overlay:before  {
+  content: " ";
+  z-index: 10;
+  display: block;
+  position: absolute;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.3);
+}
+
+.sportslide {
+  width: 100%;
+  height: 500px;
+  background-size: cover;
+  z-index: -2;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 30;
+}
+
+#nav-style {
+    background-color: #FA7268;
+}
+
+.logo-link {
+  color: white;
+}
+
+.display-1 {
+  font-family: 'Anton', sans-serif;
+}
+
+.subhead {
+  font-family: 'Encode Sans Condensed', sans-serif;
+  font-size: 25px;
+}
+
+.gen-text {
+  font-family: 'Encode Sans Condensed', sans-serif;
+}
+
+.logo-style {
+  font-family: 'Anton', sans-serif;
+}
+
+.btn-primary {
+  background-color: #FA7268;
+  border: none;
+}
+
+.nav-link {
+  font-family: 'Encode Sans Condensed', sans-serif;
+  font-size: 20px;
+  color: white;
+}
+
+.card-header {
+  background-color: #FA7268;
+  color: white;
+}
+
+.card-title {
+  height: 45px;
+  display: flex;
+  justify-content: center; /* align horizontal */
+  align-items: center; /* align vertical */
+}
+
+.modal-header {
+  background-color: #FA7268;
+  color: white;
+}
+
+.modal-title {
+  font-family: 'Anton', sans-serif;
+  font-size: 20px;
+}
+
+.modal-body {
+  font-family: 'Encode Sans Condensed', sans-serif;
+  font-size: 16px;
+}
+
+.card-foot-txt {
+  font-family: 'Encode Sans Condensed', sans-serif;
+}
+
+.race-card {
+  min-width: 250px !important;
+  max-width: 250px !important;
+  font-family: 'Encode Sans Condensed', sans-serif;
+  transition: 0.2s all ease-in-out;
+}
+
+.race-card:hover {
+  transform: translate(5px, -5px);
+  transition: 0.2s all ease-in-out;
+}
+
+.spacer {
+  height: 50px;
+}
+
+.fas {
+  color: #FA7268;
+  font-size: 50px;
+}
+
+.email-link-modal {
+  color: black !important;
+}
+
+.no-link-deco {
+  text-decoration: none !important;
+  color: black !important;
+}
+
+.no-link-deco:hover {
+  text-decoration: none !important;
+  color: black !important;
+}
+
+.race-title-modal {
+  color:white;
+}
+.race-title-modal:hover {
+  text-decoration: none;
+  color: #eee;
+  transition: 0.3s all ease-in;
+}
